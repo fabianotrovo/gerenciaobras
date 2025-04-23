@@ -1,1 +1,9 @@
 # gerenciaobras
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
